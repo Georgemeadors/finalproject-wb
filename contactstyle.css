@@ -13,9 +13,13 @@ a{
     float: right;
     margin-top: 25px;
     margin-right: 20; 
+}
 
 
-
+.border{
+    border-width: 10px !important;
+    border-color: rgb(44, 44, 204) !important;
+}
 
 
 
