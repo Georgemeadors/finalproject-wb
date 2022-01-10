@@ -1,58 +1,35 @@
-.nav{
-    background-color:rgb(44, 44, 204);
-    height: 150px; 
-}
 .navbar-text {
     background-color: rgb(44, 44, 204);
     color: white;
+    margin-bottom:10px;
+    margin: 25px;;
 }
 a{
     color: white;  
     margin: 20px;
 }
-.links{
-    text-decoration: underline;
-
-
-}
-h3{
-    color:red;
-    padding-top: 50px;
-    font-style: italic;
-}
 .logo{
     height: 100px;
     float: right;
     margin-top: 25px;
-    margin-right: 20px;
+    margin-right: 20; 
 
-}
-.pics{
-    margin-top: 50px;
-}
-.one  {
-    height: 300px;
-    width: 300px;
-    
-    
-}
-.two {
-    height: 300px;
-    width: 300px;
-    
-}
-.three {
-    height:300px;
-    width:300px;
-}
-.four {
-    height: 300px;
-    width:  300px;
-}
-p{
-    margin: auto;
-    text-align: center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     background-color: rgb(44, 44, 204);
@@ -85,6 +62,34 @@ input{
         clear:top;
         color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -133,3 +138,8 @@ Custom media queries
 @media (max-width: 950px) { 
  
 }
+
+
+
+
+

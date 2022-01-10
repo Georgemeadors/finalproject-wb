@@ -1,90 +1,91 @@
-.nav{
-    background-color:rgb(44, 44, 204);
-    height: 150px; 
-}
 .navbar-text {
     background-color: rgb(44, 44, 204);
     color: white;
+    margin-bottom:10px;
+    margin: 25px;;
 }
 a{
     color: white;  
     margin: 20px;
 }
-.links{
-    text-decoration: underline;
-
-
-}
-h3{
-    color:red;
-    padding-top: 50px;
-    font-style: italic;
-}
 .logo{
     height: 100px;
     float: right;
-    margin-top: 25px;
+    margin-top:  25px;
     margin-right: 20px;
 
-}
+
 .pics{
-    margin-top: 50px;
-}
-.one  {
-    height: 300px;
-    width: 300px;
+        margin-top: 50px;
+    }
     
+    .one  {
+        height: 300px;
+        width: 300px;
+        
+        
+    }
+    .two {
+        height: 300px;
+        width: 300px;
+        
+    }
+    .three {
+        height:300px;
+        width:300px;
+    }
+ 
+    p{
+        margin: auto;
+    }
     
-}
-.two {
-    height: 300px;
-    width: 300px;
-    
-}
-.three {
-    height:300px;
-    width:300px;
-}
-.four {
-    height: 300px;
-    width:  300px;
-}
-p{
-    margin: auto;
-    text-align: center;
-}
+    .row{
+        display:flex;
+    }
 
-.footer{
-    background-color: rgb(44, 44, 204);
-    height: 100px;
+    .footer{
+        background-color: rgb(44, 44, 204);
+        height: 100px;
+        
+    }
+    button {
+        float:left;
+        margin-left:10px;
+        margin-top: 10px;
     
-}
-button {
-    float:left;
-    margin-left:10px;
-    margin-top: 10px;
+    }
+    input{
+        margin-top:10px;
+        margin: right 10px;
+    }
+    .video{
+         padding-top: 50px;
+    }
+    .socialmedia {
+         margin-right:10px;
+         float:right;
+         margin-top:10px;
+    }
+    .copyright {
+    
+         margin:auto;
+         text-align: center;
+         margin-top: 30px;
+         clear:top;
+         color: white;
+    }
 
-}
-input{
-    margin-top:10px;
-    margin: right 10px;
-}
-.video{
-    padding-top: 50px;
-}
-.socialmedia {
-     margin-right:10px;
-     float:right;
-     margin-top:10px;
-}
-.copyright {
 
-        margin:auto;
-        text-align: center;
-        margin-top: 30px;
-        clear:top;
-        color: white;
-}
+
+
+
+
+
+
+
+
+
+
     /*
 ####################################################
 M E D I A  Q U E R I E S
