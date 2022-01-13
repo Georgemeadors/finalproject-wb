@@ -1,6 +1,6 @@
-.nav{
+.navbar{
     background-color:rgb(44, 44, 204);
-    height: 150px; 
+
 }
 .navbar-text {
     background-color: rgb(44, 44, 204);
@@ -19,6 +19,7 @@ h3{
     color:red;
     padding-top: 50px;
     font-style: italic;
+    margin-right:20%;
 }
 .logo{
     height: 100px;

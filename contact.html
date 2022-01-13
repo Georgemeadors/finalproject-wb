@@ -14,19 +14,29 @@
 </head>
 
 <body>
-    <div class="nav row">
-        <div class="col links">
-            <a href="index.html">home</a>
-            <a href="about.index.html">about</a>
-            <a href="contact.index.html">contacts</a>
+    <nav class="navbar navbar-expand-lg navbar-light text-center">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact<span class="sr-only">(current)</span> </a>
+            </li>
+          </ul>
         </div>
-        <div class="col">
-            <h3> Goodness & Mercy </h3>
-          </div>
-          <div class="col ">
-              <img class="logo" src="./images-for-project/White-red-logo.png" alt="logo of the website ">
-          </div>
-    </div>
+        <h3>Goodness & Mercy</h3>
+        <a class="navbar-brand" href="index.html">
+            <img src="./images-for-project/White-red-logo.png" alt="">
+        </a>
+      </nav>
+
     <div class="row">
         <div class="col-12">
             <p class="navbar-text d-flex justify-content-center my-3 py-5">The suffering associated with homelessness has a devastating affect on all that encounter those circumstances.<br>However, there is help for those who want to improve the quality of their lives due to homelessness</p>
@@ -37,8 +47,11 @@
                                     <!----- end of nav bar ----->
            
                                     
-     <div class="row">
-         <div class="col-4 offset-4 border p-3 rounded">
+     <div class="row justify-content-around">
+         <div class="col-sm-10 col-md-5 text-center">
+           <h2>Contact goodness and mercy for resources that will assist you in finding housing, medical and mental support as well as training programs that can lead to employment </h2>
+         </div>
+         <div class="col-sm-10 col-md-6 border p-3 rounded">
             <form>
                 <div class="form-group">
                   <label for="formGroupExampleInput">First Name</label>
@@ -56,6 +69,9 @@
                     <label for="formGroupExampleInput4">Email</label>
                     <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="...@email.com">
                   </div>
+                  <button type="button">submit</button>
+                  <input type="text">
+
               </form>
          </div>
      </div>                       

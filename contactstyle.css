@@ -21,7 +21,12 @@ a{
     border-color: rgb(44, 44, 204) !important;
 }
 
-
+h2{
+    color:red;
+    padding-top: 50px;
+    font-style: italic;
+    margin-right:20%;
+}
 
 
 
